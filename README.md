@@ -51,9 +51,19 @@
 ***
 ***
 
-* Basic - 3 Months
-* Standard - 6 Months
-* Premium - 12 Months
+1.  Basic - 3 Months
+2.  Standard - 6 Months
+3.  Premium - 12 Months
+
+* If a user missed the renewal date, then user should be collected with $100
+* If a user misses his subscription, then user is expected to pay $100
+* If a user misses both renewal and subscription, then the collected amount should be $200
+
+***
+***
+***
+***
+***
 
 ## Master Statement:
     git init; git add .; git commit -m "upload"; git remote add origin https://github.com/NSC-95-LM/library-management-system; git branch -M main; git push -u origin main -f

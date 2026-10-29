@@ -1,0 +1,100 @@
+{    
+    "books": [
+        {
+            "id": 1,
+            "name": "Atomic Habits",
+            "author": "James Clear",
+            "genre": "Self-Help",
+            "price": 499,
+            "publisher": "Penguin Random House"
+        },
+        {
+            "id": 2,
+            "name": "The Alchemist",
+            "author": "Paulo Coelho",
+            "genre": "Fiction",
+            "price": 299,
+            "publisher": "HarperCollins"
+        },
+        {
+            "id": 3,
+            "name": "Wings of Fire",
+            "author": "A. P. J. Abdul Kalam",
+            "genre": "Autobiography",
+            "price": 350,
+            "publisher": "Universities Press"
+        },
+        {
+            "id": 4,
+            "name": "Rich Dad Poor Dad",
+            "author": "Robert T. Kiyosaki",
+            "genre": "Personal Finance",
+            "price": 399,
+            "publisher": "Plata Publishing"
+        },
+        {
+            "id": 5,
+            "name": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classic Fiction",
+            "price": 250,
+            "publisher": "Scribner"
+        },
+        {
+            "id": 6,
+            "name": "Ikigai",
+            "author": "Hector Garcia and Francesc Miralles",
+            "genre": "Self-Help",
+            "price": 350,
+            "publisher": "Penguin Books"
+        },
+        {
+            "id": 7,
+            "name": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian Fiction",
+            "price": 299,
+            "publisher": "Secker & Warburg"
+        },
+        {
+            "id": 8,
+            "name": "The Psychology of Money",
+            "author": "Morgan Housel",
+            "genre": "Finance",
+            "price": 399,
+            "publisher": "Harriman House"
+        },
+        {
+            "id": 9,
+            "name": "Harry Potter and the Philosopher's Stone",
+            "author": "J. K. Rowling",
+            "genre": "Fantasy",
+            "price": 499,
+            "publisher": "Bloomsbury"
+        },
+        {
+            "id": 10,
+            "name": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Classic Fiction",
+            "price": 350,
+            "publisher": "J. B. Lippincott & Co."
+        },
+        {
+            "id": 11,
+            "name": "Deep Work",
+            "author": "Cal Newport",
+            "genre": "Productivity",
+            "price": 450,
+            "publisher": "Grand Central Publishing"
+        },
+        {
+            "id": 12,
+            "name": "The Discovery of India",
+            "author": "Jawaharlal Nehru",
+            "genre": "History",
+            "price": 599,
+            "publisher": "Penguin Books India"
+        }
+    ]
+}

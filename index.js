@@ -12,6 +12,12 @@ app.get("/", (req, res) => {
     });
 });
 
+// app.all("*", (req, res) => {
+//     res.status(500).json({
+//         message: "Not Built Yet"
+//     });
+// });
+
 app.listen(PORT, () => {
     console.log(`Server is up and running on http://localhost:${PORT}`);
 });

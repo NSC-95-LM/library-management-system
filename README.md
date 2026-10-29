@@ -1,17 +1,11 @@
-***
-***
-# ***Library Management System***
-***
-***
+# ***LIBRARY MANAGEMENT SYSTEM***
 
 ## **Summary**
-    This is a library management API Backend for the management of users and the books
+>This is a library management API Backend for the management of users and the books
 
 ## **Routes and the Endpoints**
 
 ### *USERS*
-***
-***
 
 #### 1. /users
 * GET: Get all the list of users in the system
@@ -29,8 +23,6 @@
     * Fine if any ?
 
 ### *BOOKS*
-***
-***
 
 #### 1. /books
 * GET: Get all the books in the system
@@ -48,8 +40,6 @@
 * GET: Get all issued books with their fine amount
 
 ### *SUBSCRIPTIONS*
-***
-***
 
 1.  Basic - 3 Months
 2.  Standard - 6 Months
@@ -59,37 +49,29 @@
 * If a user misses his subscription, then user is expected to pay $100
 * If a user misses both renewal and subscription, then the collected amount should be $200
 
-***
-***
-***
-***
-***
+# ***COMMANDS***
+1. `npm init`
+2. `npm i express`
+3. `npm i nodemon --save-dev`
+4. Add the below lines in package.json > scripts:
+    ``` json
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    ```
+5. `npm run dev`
+6. To Restore node_modules & package-lock.json => `npm i` or `npm install` [Never delete the package.json file]
 
-## Master Statement:
+# ***MASTER STATEMENT***
     git init; git add .; git commit -m "upload"; git remote add origin https://github.com/NSC-95-LM/library-management-system; git branch -M main; git push -u origin main -f
 
-## Git Steps:
+# ***GIT STEPS***
 
-### Checking Step
-    git status
-
-### Pushing Step
-    git add .
-
-### First Step
-    git config --global user.name "NSC-95-LM"
-
-### Second Step
-    git config --global user.email "chauhan.nishesh@outlook.com"
-
-### Third Step
-    git init
-
-### Fourth Step
-    git config --global color.ui auto
-
-### Fifth Step
-    git clone https://github.com/NSC-95-LM/library-management-system.git
-
-### Sixth Step
-    git remote add origin https://github.com/NSC-95-LM/library-management-system.git
+| Sr. No. | Desc |
+| --- | --- |
+| Checking Step | `git status` |
+| First Step | `git config --global user.name "NSC-95-LM"` |
+| Second Step | `git config --global user.email "chauhan.nishesh@outlook.com"` |
+| Third Step | `git init` |
+| Fourth Step | `git config --global color.ui auto` |
+| Fifth Step | `git clone https://github.com/NSC-95-LM/library-management-system.git` |
+| Sixth Step| `git remote add origin https://github.com/NSC-95-LM/library-management-system.git` |
